@@ -1,1 +1,5 @@
-API_KEY="123456-ABCDEFGH"
+
+import os
+
+# Load API key from environment variable
+API_KEY = os.getenv("API_KEY")
